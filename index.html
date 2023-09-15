@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+<head>
+    <!--Made By Neel Makwana-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!--- Tailwind CSS & Daisy UI CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.18.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+     <!-- Favicon -->
+     <link rel="icon" href="bullet-list.png"> 
+    <title>To_Do_List</title>
+</head>
+<body>
+<!--Made By Neel Makwana-->    
+    <div class="container">
+        <header>
+            <h1>&#129392: Made By Neel Makwana :&#129392</h1>
+			<!--Made By Neel Makwana-->
+            <h1>&#128522 : Todo List : &#128522 </h1>
+            <!-- Error message -->
+            <div class="alert-message">
+            </div>
+			<!--Made By Neel Makwana-->
+            <div class="input-section">
+                <input type="text" placeholder="Add a list . . ." class="input input-bordered input-secondary w-full max-w-xs" />
+                <input type="date" class="input input-bordered input-secondary w-64 max-w-xs" name="time" id="time">
+                <button class="btn btn-secondary add-task-button">
+				<!--Made By Neel Makwana-->
+                    <i class="bx bx-plus bx-sm"></i>
+                </button>
+            </div>
+        </header>
+		<!--Made By Neel Makwana-->
+        <div class="todos-filter">
+            <!-- <div class="dropdown">
+                <label tabindex="0" class="btn m-1">Filter</label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>All</a></li>
+                    <li><a>Pending</a></li>
+                    <li><a>Completed</a></li>
+                </ul>
+            </div> -->
+            <button class="btn btn-secondary delete-all-btn">
+                Delete All
+            </button>
+        </div>
+        <ul class="todos-list">
+		<!--Made By Neel Makwana-->		
+        </ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
